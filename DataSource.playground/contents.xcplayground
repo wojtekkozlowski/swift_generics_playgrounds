@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<playground version='6.0' target-platform='ios'>
+    <pages>
+        <page name='Reference'/>
+        <page name='Page0'/>
+        <page name='Page1'/>
+        <page name='Page2'/>
+        <page name='Page3'/>
+        <page name='Page4'/>
+        <page name='Page6'/>
+        <page name='Page7'/>
+        <page name='Page8'/>
+        <page name='Page13'/>
+        <page name='Page14'/>
+        <page name='Page15'/>
+        <page name='Page16'/>
+        <page name='Page17'/>
+        <page name='Page18'/>
+        <page name='Page19'/>
+        <page name='Page20'/>
+        <page name='Page21'/>
+        <page name='Page22'/>
+        <page name='Page23'/>
+        <page name='Page24'/>
+        <page name='Page25'/>
+        <page name='Page26'/>
+        <page name='Page27'/>
+        <page name='Page28'/>
+        <page name='Page29'/>
+        <page name='Page30'/>
+        <page name='Page31'/>
+        <page name='Page32'/>
+        <page name='Page33'/>
+        <page name='Page34'/>
+        <page name='PageX'/>
+        <page name='Untitled Page'/>
+    </pages>
+</playground>
