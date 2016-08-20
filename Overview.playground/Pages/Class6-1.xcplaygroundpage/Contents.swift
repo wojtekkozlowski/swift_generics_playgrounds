@@ -1,13 +1,12 @@
 //: [Previous](@previous)
 
 import Foundation
-import UIKit
 
-protocol Switchable {
+class BaseModel {
     
 }
 
-class User<T: Switchable> {
+class User<T where T == BaseModel> {
     let param: T
     
     init(param: T){

@@ -4,13 +4,13 @@ import Foundation
 import UIKit
 
 protocol Switchable {
-    
+    associatedtype Item
 }
 
 class User<T: Switchable> {
-    let param: T
+    let param: T.Item
     
-    init(param: T){
+    init(param: T.Item){
         self.param = param
     }
 }

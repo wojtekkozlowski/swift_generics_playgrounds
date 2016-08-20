@@ -8,3 +8,8 @@ enum Result<T, U> {
 }
 //---------------------
 
+//copied from Swift STDL
+enum Optional<Wrapped> {
+    case None
+    case Some(Wrapped)
+}

@@ -5,18 +5,20 @@
         <page name='Class2'/>
         <page name='Class3'/>
         <page name='Class4'/>
+        <page name='TypeInference'/>
         <page name='Class5'/>
         <page name='Class6'/>
+        <page name='Class6-1'/>
         <page name='Class7'/>
         <page name='Class7-1'/>
+        <page name='Class7-2'/>
         <page name='Class8'/>
         <page name='Class8-1'/>
         <page name='Class9'/>
-        <page name='Class9-1'/>
-        <page name='Class9-2'/>
-        <page name='Class10'/>
-        <page name='Page11'/>
         <page name='Enum1'/>
+        <page name='Enum2'/>
+        <page name='Enum3'/>
+        <page name='Optional'/>
         <page name='Enum+Struct1'/>
     </pages>
 </playground>

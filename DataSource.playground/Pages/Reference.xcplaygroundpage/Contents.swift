@@ -86,15 +86,15 @@ class DataSource<V:ViewModel where V.Cell.ViewModel == V> : NSObject, UITableVie
 
 class VCT: UITableViewController {
     
-    typealias ViewModelType = UserViewModel
-//    typealias ViewModelType = AccountViewModel
+//    typealias ViewModelType = UserViewModel
+    typealias ViewModelType = AccountViewModel
 
     
     private let ds: DataSource<ViewModelType>
     
     init() {
-        ds = DataSource(viewModels: [UserViewModel(userName: "John")])
-//        ds = DataSource(viewModels: [AccountViewModel(amount:"50,000")])
+//        ds = DataSource(viewModels: [UserViewModel(userName: "John")])
+        ds = DataSource(viewModels: [AccountViewModel(amount:"50,000")])
         super.init(nibName: nil, bundle: nil)
     }
     
