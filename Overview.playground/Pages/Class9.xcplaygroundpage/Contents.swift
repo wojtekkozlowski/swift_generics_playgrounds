@@ -8,14 +8,18 @@ protocol ViewModel {
 
 protocol Cell {
     associatedtype ViewModelType
+    func update(viewModel: ViewModelType)
 }
 
-class DataSource<V: ViewModel where V.CellType.ViewModelType == ViewModel> {
+class DataSource<V: ViewModel where V.CellType.ViewModelType == V> {
     let viewModels: [V]
     
     init(viewModels: [V]){
         self.viewModels = viewModels
     }
 }
+
+
+
 
 
