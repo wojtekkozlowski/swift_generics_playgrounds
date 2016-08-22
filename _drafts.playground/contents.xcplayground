@@ -2,10 +2,10 @@
 <playground version='6.0' target-platform='ios'>
     <pages>
         <page name='Network'/>
+        <page name='Untitled Page'/>
         <page name='Strategy'/>
         <page name='GenericDataSource'/>
         <page name='GenericDataSource3'/>
         <page name='GenericDataSource2'/>
-        <page name='Training'/>
     </pages>
 </playground>
