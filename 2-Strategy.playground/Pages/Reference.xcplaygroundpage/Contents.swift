@@ -1,6 +1,3 @@
-//: [Previous](@previous)
-
-import Foundation
 
 protocol Strategy {
     associatedtype S
